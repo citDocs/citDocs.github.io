@@ -82,9 +82,11 @@
         {% assign content_col_size = "col-md-12" %}
         {% unless page.hide_sidebar %}
             <!-- Sidebar Column -->
-            <div class="col-md-3">
+            <div class="col-md-3" id="tg-sb-sidebar">
                 {% include sidebar.html %}
-                
+            </div>
+            
+            <div class="col-md-3" id="tg-sb-sidebar">    
                 {% unless page.toc == false %}
                 {% include toc.html %}
                 {% endunless %}
