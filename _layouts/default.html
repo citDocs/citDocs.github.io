@@ -85,9 +85,6 @@
             <div class="col-md-3" id="tg-sb-sidebar">
                 {% include sidebar.html %}
             
-                {% assign content_col_size = "col-md-9" %}
-            {% endunless %}
-
                 {% unless page.toc == false %}
                 {% include toc.html %}
                 {% endunless %}
@@ -96,7 +93,8 @@
                     <a target="_blank" href="https://github.com/{{site.github_editme_path}}{% unless page.url contains "index.html" %}pages/{% endunless %}{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
                 {% endif %}                
             </div>
-            
+            {% assign content_col_size = "col-md-9" %}
+        {% endunless %}
 
         <!-- Content Column -->
         <div class="{{content_col_size}}" id="tg-sb-content">
