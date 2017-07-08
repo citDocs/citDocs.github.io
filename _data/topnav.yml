@@ -15,7 +15,7 @@ topnav_dropdowns:
     - title: Jekyll Help
       folderitems:
         - title: Jekyll Talk
-          external_url: https://talk.jekyllrb.com
+          external_url: https://citdocs.github.io/semestr1/
         - title: Jekyll documentation
           external_url: http://jekyllrb.com/docs/home/
         - title: Jekyll on Stack Overflow
