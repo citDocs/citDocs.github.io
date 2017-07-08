@@ -5,22 +5,22 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
-    - title: News
+    - title: Новости
       url: /news
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Jekyll Help
+    - title: Дисциплины
       folderitems:
-        - title: Jekyll Talk
+        - title: 1 семестр
           external_url: https://citdocs.github.io/semestr1/
-        - title: Jekyll documentation
+        - title: 2 семестр
           external_url: http://jekyllrb.com/docs/home/
-        - title: Jekyll on Stack Overflow
+        - title: 3 семестр
           external_url: http://stackoverflow.com/questions/tagged/jekyll
-        - title: Jekyll on my blog
+        - title: 4 семестр
           external_url: http://idratherbewriting.com/category-jekyll/
     - title: Products
       folderitems:
