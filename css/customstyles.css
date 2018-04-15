@@ -2,6 +2,9 @@ body {
     font-size:15px;
 }
 
+.br {
+    border: 1px solid black;}
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
