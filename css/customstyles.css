@@ -2,6 +2,13 @@ body {
     font-size:15px;
 }
 
+.br2{
+    position:fixed;
+    z-index:2;}
+
+.br3 {
+    position:fixed;
+    z-index:3;}
 
 .bs-callout {
     padding: 20px;
