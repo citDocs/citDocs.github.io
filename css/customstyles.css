@@ -3,10 +3,10 @@ body {
 }
 
 .br1 {
-    border:1px solid black;}
+    border:2px solid black;}
 
 .br2 {
-    border:2px solid red;}
+    border:1px solid red;}
 
 .br3 {
     border: 2px solid yellow;}
