@@ -2,18 +2,6 @@ body {
     font-size:15px;
 }
 
-.br1 {
-    border:2px solid black;
-    float:bottom;}
-
-.br2 {
-    border:1px solid red;
-    float:bottom;}
-
-.br3 {
-    border: 2px solid yellow;}
-
-
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
