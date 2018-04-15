@@ -2,7 +2,8 @@
 
 
   <ul id="mysidebar" class="nav">
-  <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
+    <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
+    <ul>
   {% for entry in sidebar %}
   {% for folder in entry.folders %}
   {% if folder.output contains "web" %}
@@ -50,6 +51,7 @@
            <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
        </p>
        -->
+    </ul>
   </ul>
 
 
