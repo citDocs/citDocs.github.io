@@ -9,7 +9,7 @@ topnav:
       url: /news
 
 #Topnav dropdowns
-topnav_dropdowns:
+topnav:
 - title: Topnav dropdowns
   folders:
     - title: Дисциплины
