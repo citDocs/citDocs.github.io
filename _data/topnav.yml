@@ -22,6 +22,14 @@ topnav_dropdowns:
           external_url: http://stackoverflow.com/questions/tagged/jekyll
         - title: 4 семестр
           external_url: http://idratherbewriting.com/category-jekyll/
+        - title: 5 семестр
+          external_url: http://idratherbewriting.com/category-jekyll/
+        - title: 6 семестр
+          external_url: http://idratherbewriting.com/category-jekyll/
+        - title: 7 семестр
+          external_url: http://idratherbewriting.com/category-jekyll/
+        - title: 8 семестр
+          external_url: http://idratherbewriting.com/category-jekyll/
     - title: Курсы
       folderitems:
         - title: Jekyll Documentation Theme
