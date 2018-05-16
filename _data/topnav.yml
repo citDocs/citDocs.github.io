@@ -22,7 +22,7 @@ topnav_dropdowns:
           external_url: http://stackoverflow.com/questions/tagged/jekyll
         - title: 4 семестр
           external_url: http://idratherbewriting.com/category-jekyll/
-    - title: Products
+    - title: Курсы
       folderitems:
         - title: Jekyll Documentation Theme
           url: /mydoc_introduction.html
