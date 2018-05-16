@@ -30,7 +30,8 @@ topnav_dropdowns:
           external_url: http://idratherbewriting.com/category-jekyll/
         - title: 8 семестр
           external_url: http://idratherbewriting.com/category-jekyll/
-          
+   
+topnav:
 - title: Курсы
       #folderitems:
        # - title: Jekyll Documentation Theme
