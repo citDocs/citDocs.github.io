@@ -20,9 +20,9 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: 1 Семестр
-    output: web, pdf
-    folderitems:
+  #- title: 1 Семестр
+   # output: web, pdf
+    #folderitems:
     - title: Дисциплина 1
       output: web, pdf
       folderitems:
