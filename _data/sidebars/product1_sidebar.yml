@@ -27,7 +27,7 @@ entries:
      output: web, pdf
      folderitems:
      -title: Статья 1
-      url: www.yandex.ru #p1_landing_page.html
+      url: /p2_landing_page.html#www.yandex.ru 
       output: web
      -title: Статья 2
       url: /p1_landing_page.html
