@@ -23,18 +23,18 @@ entries:
   - title: 1 Семестр
     output: web, pdf
     folderitems:
-    - title: Дисциплина 1
-      output: web, pdf
-      folderitems:
-      -title: Статья 1
-       url: ../p1_landing_page.html
-       output: web
-      -title: Статья 2
-       url: /p1_landing_page.html
-       output: web
-      -title: Статья 3
-       url: /p1_landing_page.html
-       output: web
+   # - title: Дисциплина 1
+    #  output: web, pdf
+     # folderitems:
+     -title: Статья 1
+      url: /p1_landing_page.html
+      output: web
+     -title: Статья 2
+      url: /p1_landing_page.html
+      output: web
+     -title: Статья 3
+      url: /p1_landing_page.html
+      output: web
 
     - title: Дисциплина 1
       #url: /p1_sample1.html
