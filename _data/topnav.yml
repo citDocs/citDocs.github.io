@@ -15,21 +15,21 @@ topnav_dropdowns:
     - title: Дисциплины
       folderitems:
         - title: 1 семестр
-          external_url: https://citdocs.github.io/semestr1/
+          url: /p1_landing_page.html#https://citdocs.github.io/semestr1/
         - title: 2 семестр
-          external_url: http://jekyllrb.com/docs/home/
+          url: /p1_landing_page.html#http://jekyllrb.com/docs/home/
         - title: 3 семестр
-          external_url: http://stackoverflow.com/questions/tagged/jekyll
+          url: /p1_landing_page.html#http://stackoverflow.com/questions/tagged/jekyll
         - title: 4 семестр
-          external_url: http://idratherbewriting.com/category-jekyll/
+          url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
         - title: 5 семестр
-          external_url: http://idratherbewriting.com/category-jekyll/
+          url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
         - title: 6 семестр
-          external_url: http://idratherbewriting.com/category-jekyll/
+          url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
         - title: 7 семестр
-          external_url: http://idratherbewriting.com/category-jekyll/
+          url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
         - title: 8 семестр
-          external_url: http://idratherbewriting.com/category-jekyll/
+          url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
     - title: Курсы
       folderitems:
        - title: Jekyll Documentation Theme
