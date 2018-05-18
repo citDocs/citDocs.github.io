@@ -1,12 +1,12 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting
 
 entries:
- - title: Sidebar
+ - title: Product 
    product: Product1
    version: 1.0
    folders:
 
-  - title: qwerty 
+  - title: qwerty
     output: pdf
     type: frontmatter
     folderitems:
