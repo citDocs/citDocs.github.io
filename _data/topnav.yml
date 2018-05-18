@@ -30,5 +30,9 @@ topnav_dropdowns:
           url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
         - title: 8 семестр
           url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
+
+topnav:
+- title: Topnav
+  items:
     - title: Курсы
       url: /p2_landing_page.html
