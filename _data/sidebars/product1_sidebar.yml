@@ -6,7 +6,7 @@ entries:
    version: 1.0
    folders:
 
-  - title: 
+  - title: qwerty 
     output: pdf
     type: frontmatter
     folderitems:
