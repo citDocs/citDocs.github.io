@@ -30,66 +30,66 @@ entries:
       url: /p2_landing_page.html
       output: web
 
-  - title: Simple Workflow
+  - title: Дисциплина 2
     output: web, pdf
     folderitems:
 
-    - title: Sample 1
+    - title: Статья 1
       url: /p2_sample1.html
       output: web, pdf
 
-    - title: Sample 2
+    - title: Статья 2
       url: /p2_sample2.html
       output: web, pdf
 
-    - title: Sample 3
+    - title: Статья 3
       url: /p2_sample3.html
       output: web, pdf
 
-    - title: Sample 4
+    - title: Статья 4
       url: /p2_sample4.html
       output: web, pdf
 
-    - title: Sample 5
+    - title: Статья 5
       url: /p2_sample5.html
       output: web, pdf
 
-  - title: Complex Workflow
+  - title: Дисциплина 3
     output: web, pdf
     folderitems:
 
-    - title: Sample 6
+    - title: Статья 1
       url: /p2_sample6.html
       output: web, pdf
 
-    - title: Sample 7
+    - title: Статья 2
       url: /p2_sample7.html
       output: web, pdf
 
-    - title: Sample 8
+    - title: Статья 3
       url: /p2_sample8.html
       output: web, pdf
 
-    - title: Sample 9
+    - title: Статья 4
       url: /p2_sample9.html
       output: web, pdf
 
-    - title: Sample 10
+    - title: Статья 5
       url: /p2_sample10.html
       output: web, pdf
 
-    - title: Sample 11
+    - title: Статья 6
       url: /p2_sample11.html
       output: web, pdf
 
-    - title: Sample 12
+    - title: Статья 7
       url: /p2_sample12.html
       output: web, pdf
 
-    - title: Sample 13
+    - title: Статья 8
       url: /p2_sample13.html
       output: web, pdf
 
-    - title: Sample 14
+    - title: Статья 9
       url: /p2_sample14.html
       output: web, pdf
