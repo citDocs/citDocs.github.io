@@ -15,21 +15,21 @@ topnav_dropdowns:
     - title: Дисциплины
       folderitems:
         - title: 1 семестр
-          url: /p1_landing_page.html#https://citdocs.github.io/semestr1/
+          url: /p1_landing_page.html
         - title: 2 семестр
-          url: /p1_landing_page.html#http://jekyllrb.com/docs/home/
+          url: /p1_landing_page.html
         - title: 3 семестр
-          url: /p1_landing_page.html#http://stackoverflow.com/questions/tagged/jekyll
+          url: /p1_landing_page.html
         - title: 4 семестр
-          url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
+          url: /p1_landing_page.html
         - title: 5 семестр
-          url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
+          url: /p1_landing_page.html
         - title: 6 семестр
-          url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
+          url: /p1_landing_page.html
         - title: 7 семестр
-          url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
+          url: /p1_landing_page.html
         - title: 8 семестр
-          url: /p1_landing_page.html#http://idratherbewriting.com/category-jekyll/
+          url: /p1_landing_page.html
 
 topnav:
 - title: Topnav
