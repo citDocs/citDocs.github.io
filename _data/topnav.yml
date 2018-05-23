@@ -15,7 +15,7 @@ topnav_dropdowns:
     - title: Дисциплины
       folderitems:
         - title: 1 семестр
-          url: /p1_landing_page.html
+          url: /p2_landing_page.html
         - title: 2 семестр
           url: /p1_landing_page.html
         - title: 3 семестр
