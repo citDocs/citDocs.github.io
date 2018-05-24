@@ -24,7 +24,7 @@ entries:
     folderitems:
 
     - title: Статья 1
-      url: /p1_sample1.md
+      url: /p1_sample1.html
       output: web
     - title: Статья 2
       url: /p2_landing_page.html
