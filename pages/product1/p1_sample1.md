@@ -17,7 +17,7 @@ folder: product1
 
 Рисунок 1.1. Так выглядит окно после загрузки программы:
 
-![](/images/img11.png)
+![](/img11.png)
 
 
 ## More sample content
