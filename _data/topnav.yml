@@ -36,5 +36,5 @@ topnav:
   items:
     - title: Курсы
       #url: /p1_landing_page.html
-      #url: /p2_landing_page.html
-      url: /index.html
+      url: /p2_landing_page.html
+      #url: /index.html
