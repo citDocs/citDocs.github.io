@@ -20,7 +20,7 @@ folder: product1
 
 Рисунок 1.1. Так выглядит окно после загрузки программы:
 
-![картинка](/citdocs.github.io/images/img11.png/200*100 "title")
+![картинка](/images/img11.png/200*100 "title")
 
 Рисунок 1.2:
 
