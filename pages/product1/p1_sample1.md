@@ -1,7 +1,7 @@
 ---
 title: Sample 1 Topic (Product 1)
 keywords: sample
-summary: "Уроки и примеры работы для "чайников". Практические занятия, задания и упражнения с детальным описанием и картинками."
+summary: "This is just a sample topic..."
 sidebar: product1_sidebar
 permalink: p1_sample1.html
 folder: product1
