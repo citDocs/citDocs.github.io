@@ -23,11 +23,11 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Статья 1
+    - title: УРОКИ EXCEL ДЛЯ ЧАЙНИКОВ И НАЧИНАЮЩИХ ПОЛЬЗОВАТЕЛЕЙ
       url: /p1_sample1.html
       output: web
-    - title: Статья 2
-      url: /p2_landing_page.html
+    - title: САМОУЧИТЕЛЬ EXCEL С ПРИМЕРАМИ ДЛЯ ПОЛЬЗОВАТЕЛЕЙ СРЕДНЕГО УРОВНЯ
+      url: /p1_sample2.html
       output: web
 
   - title: Дисциплина 2
