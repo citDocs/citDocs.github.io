@@ -7,7 +7,7 @@ permalink: p1_sample1.html
 folder: product1
 ---
 
-<center># ПОДГОТОВКА К РАБОТЕ</center>
+# <center>ПОДГОТОВКА К РАБОТЕ</center>
 
 ## ЗНАКОМСТВО С ОКНОМ EXCEL И ЗАКЛАДКАМИ
 
@@ -20,7 +20,7 @@ folder: product1
 
 Рисунок 1.1. Так выглядит окно после загрузки программы:
 
-![](/images/img11.png)
+![картинка](/images/img11.png)
 
 Рисунок 1.2:
 
