@@ -7,7 +7,7 @@ permalink: p1_sample1.html
 folder: product1
 ---
 
-# ПОДГОТОВКА К РАБОТЕ
+<center># ПОДГОТОВКА К РАБОТЕ</center>
 
 ## ЗНАКОМСТВО С ОКНОМ EXCEL И ЗАКЛАДКАМИ
 
