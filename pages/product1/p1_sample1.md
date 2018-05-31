@@ -21,11 +21,11 @@ folder: product1
 
 Рисунок 1.1. Так выглядит окно после загрузки программы:
 
-{% include image.html file="img11.png" %}
+![](/images/img11.png)
 
 Рисунок 1.2:
 
-![картинка](/images/img11.png)
+![](/images/img11.png)
 
 Полоса инструментов – минимизирована.
 
