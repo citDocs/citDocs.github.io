@@ -21,7 +21,7 @@ folder: product1
 
 Рисунок 1.1. Так выглядит окно после загрузки программы:
 
-![картинка](/images/img11.png)
+{% include image.html file="img11.png" %}
 
 Рисунок 1.2:
 
