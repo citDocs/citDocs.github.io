@@ -36,11 +36,11 @@ entries:
       output: web
 
     - title: Диапазоны ячеек смежные и несмежные
-      url: /p2_landing_page.html
+      url: /p2_sample18.html
       output: web
 
     - title: Редактирование данных листа
-      url: /p2_landing_page.html
+      url: /p2_sample20.html
       output: web
 
     - title: Форматирование ячеек таблицы
