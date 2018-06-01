@@ -10,19 +10,87 @@ box_number: 3
 folder: product2
 ---
 
-## Sample Content
+## СОЗДАНИЕ, КОПИРОВАНИЕ И ПЕРЕМЕЩЕНИЕ ЛИСТОВ В КНИГАХ EXCEL
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Лист Excel – это рабочая область под полосой инструментов. Лист состоит из множества ячеек упорядоченных между собой относительно строк и колонок.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Его внешний вид напоминает большую таблицу. В каждой новой книге Excel по умолчанию создается 1 лист.
 
+Для пользователя лист представляет собой файл с документом который вложен в скоросшиватель (рабочая книга Excel). Листами можно и нужно управлять. Их можно перемещать в другие рабочие книги. Данная операция экономит много времени чем просто копировать и переносить содержимое самого листа.
 
-## More sample content
+### ЛИСТЫ EXCEL КАК СРЕДА ДЛЯ РАБОТЫ С ДАННЫМИ
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+В стандартной книге каждый лист представляет собой большие таблицы, которые заполняются данными и формулами. Как добавить лист в Excel? По мере необходимости можно вставлять дополнительные листы (SHIFT+F11) или удалять неиспользуемые. Сделать новый лист в Excel, можно кликнув по последней закладке листов, как показано на рисунке:
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+![картинка](/images/img11.png)
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+Как скопировать лист в Excel? Для быстрой реализации данной задачи необходимо:
+
+<ol>
+    <li>
+        Навести курсор мышки на закладку листа (ярлычок), который необходимо скопировать.
+    </li>
+    <li>
+        Сделать щелчок, левой кнопкой мишки, удерживая кнопку + клавишу CTRL переместить курсор в то место закладок листов, куда следует вставить копию.
+    </li>
+</ol>
+
+Если листов очень много или необходимо скопировать / переместить лист в новую книгу тогда выполняем следующие действия:
+
+<ol>
+    <li>
+        Правой кнопкой мышки кликаем по закладке листа (ярлычку) для вызова контекстного меню, где выбираем опцию «Переместить или скопировать…».
+        ![картинка](/images/img11.png)
+    </li>
+    <li>
+        В появившимся окне настраиваем параметры копирования листа. Сверху выбираем, в какую из открытых книг следует скопировать лист. Снизу указываем, между какими листами следует вставить копию.
+        ![картинка](/images/img11.png)
+    </li>
+    <li>
+        Если мы копируем лист, а не переносим его, следует отметить галочкой опцию «Создать копию».
+    </li>
+</ol>
+
+### УПРАЖНЕНИЯ С ЭЛЕМЕНТАМИ ЛИСТОВ
+
+#### Упражнение 1: 
+
+Щелкните по каждому элементу, указанному на рисунке выше и постарайтесь запомнить их расположение, название.
+
+#### Упражнение 2:
+
+<ol>
+    <li>
+        Создайте два новых листа.
+    </li>
+    <li>
+        Щелкните по расположенным внизу закладках (Лист2, Лист3 и Лист1) поочередно. После щелчка ярлычок каждого листа становится активным, а его закладка подсвечивается.
+    </li>
+</ol>
+
+_Примечание: каждая книга может содержать в себе множество листов, подобно как скоросшиватель содержит в себе файлы._
+
+Различные операции с листами рассмотрим на следующих уроках.
+
+### РАБОТА С ЯЧЕЙКАМИ ЛИСТОВ
+
+Самым главным элементом листа является ячейка. Каждая ячейка имеет свой порядковый номер относительно строк и колонок. Таким образом, каждой ячейке присвоен свой адрес (подобно клеткам в шахматной доске). То есть, первая ячейка (в верхнем левом углу) имеет адрес A1, а под ней ячейка с адресом A2. С правой стороны в ячейке адрес B2 и т.д.
+
+Количество строк в каждом листе чуть более одного миллиона, а точнее 1 048 576 шт. Количество колонок значительно меньше – 16 384 шт.
+
+_Примечание: Обратите внимание! После 26 латинских букв название колонок состоит уже не из одной, а из 2 и более букв в логическом, алфавитном порядке. Таким образом, адрес последней ячейке в самом нижнем правом углу листа является XFD1048578._
+
+В каждую ячейку можно записать:
+
+<ul>
+    <li>текст;</li>
+    <li>число;</li>
+    <li>дату и время;</li>
+    <li>формулы;</li>
+    <li>логические выражения.</li>
+</ul>
+
+Каждой ячейке можно задать формат и присвоить примечание. Все данные и стили форматирования ячеек можно изменять. Так же стоит отметить, что форматирование границ ячеек являются ключевой основой по оформлению внешнего вида таблиц (например, для печати бланков и др.).
+
 
 {% include links.html %}

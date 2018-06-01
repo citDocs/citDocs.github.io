@@ -10,19 +10,83 @@ box_number: 4
 folder: product2
 ---
 
-## Sample Content
+## ПАНЕЛЬ БЫСТРОГО ДОСТУПА
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Название панели быстрого доступа говорит само за себя. Здесь размещаются те инструменты, которые пользователь использует чаще всего. Более того здесь можно разместить инструменты которых нет на полосе с закладками. Например, "мастер сводных таблиц" и др.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Панель быстрого доступа это первое лучшее решение для пользователей которые переходят из старых версий Excel и не имеют времени на изучения нового интерфейса или его настроек, а хотят сразу приступить к работе.
 
+Данная панель еще полезна в режиме свернутой главной полосы инструментов. Тогда нет необходимости каждый раз выходить из удобного для просмотра и работы режима со свернутой полосой.
 
-## More sample content
+### ПРАКТИЧЕСКОЕ ПРИМЕНЕНИЕ ПАНЕЛИ БЫСТРОГО ДОСТУПА
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Выше широкой полосы инструментов находится панель быстрого доступа Excel. По умолчанию там расположены 3 самых часто используемых инструмента:
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+<ol>
+    <li>Сохранить (CTRL+S)</li>
+    <li>Отменить ввод (CTRL+Z)</li>
+    <li>Повторить ввод (CTRL+Y)</li>
+</ol>
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+Количество инструментов в панели быстрого доступа можно изменять с помощью настройки.
+
+<ol>
+    <li>
+        При загрузке программы активная ячейка на чистом листе находится по адресу A1. Введите с клавиатуры букву «a» и нажмите «Enter». Курсор сместиться вниз на ячейку A2.
+    </li>
+    <li>
+       Щелкните на инструмент «Отменить ввод» (или комбинацию горячих клавиш: CTRL+Z)и текст исчезнет, а курсор вернется на исходную позицию. 
+       ![картинка](/images/img11.png)
+    </li>
+    <li>
+        Если выполнить несколько действий на листе (например, заполнить буквами несколько ячеек), то для вас будет доступен выпадающий список истории действий для кнопки «Отменить ввод». Таким образом, вы можете одним щелчком отменить множество действий, что очень удобно.
+        ![картинка](/images/img11.png)
+    </li>
+</ol>
+
+После отмены нескольких действий доступен список истории для инструмента «Повторить ввод».
+
+### НАСТРОЙКА ПАНЕЛИ БЫСТРОГО ДОСТУПА EXCEL
+
+Панель быстрого доступа – это гибко настраиваемая панель инструментов в Excel для упрощения и улучшения комфортной работы пользователей в программе.
+
+Можно размещать кнопки часто используемых инструментов. Попробуйте самостоятельно добавить кнопку инструмента «Создать».
+
+<ol>
+    <li>
+        С правой стороны сделайте щелчок по выпадающему списку для вызова опций настройки.
+    </li>
+    <li>
+       Из появившегося списка выберите опцию «Создать» и добавится инструмент создания новых книг Excel. 
+       ![картинка](/images/img11.png)
+    </li>
+    <li>
+        Отметьте еще раз опцию «Создать» из списка настройки, чтобы удалить данный инструмент.
+    </li>
+</ol>
+
+**Расширенная настройка**
+
+В опциях настройки панели с помощью выпадающего списка только несколько популярных инструментов, но на панель можно добавить любой инструмент, имеющийся в Excel.
+
+<ol>
+    <li>
+        Чтобы гибко настроить содержимое панели быстрого доступа необходимо выбрать опцию «Другие команды». Появится окно «Параметры Excel» с уже выбранным параметром «Панель быстрого доступа». Вызвать данное окно можно и через меню «Файл» опция «Параметры» далее выбираем необходимый параметр.
+    </li>
+    <li>
+        Выберете инструмент в левом списке, который желаете часто использовать. Сделайте щелчок на кнопке «Добавить» и нажмите ОК.
+    </li>
+    <li>
+        Для удаления инструментов, выберите инструмент из правого списка и нажмите на кнопку «Удалить», а потом ОК.
+    </li>
+</ol>
+
+**Изменение расположения**
+
+Данную панель при необходимости можно разместить под полосой инструментов, а не над ней.
+
+Откройте выпадающий список и выберите опцию «Разместить под лентой». Данную задачу можно также решить, если воспользоваться контекстным меню. Для вызова контекстного меню необходимо сделать щелчок правой кнопкой мыши непосредственно по панели.
+
+Чтобы вернуть панель обратно (поместив ее над лентой), следует выбрать опцию «Разместить над лентой» аналогичным образом.
 
 {% include links.html %}

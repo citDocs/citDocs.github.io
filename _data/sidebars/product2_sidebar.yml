@@ -19,74 +19,87 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Introduction
+  - title: УРОКИ EXCEL ДЛЯ ЧАЙНИКОВ И НАЧИНАЮЩИХ ПОЛЬЗОВАТЕЛЕЙ
     output: web, pdf
     folderitems:
 
-    - title: Overview
+    - title: Подготовка к работе
       url: /p2_landing_page.html
       output: web
 
-  - title: Simple Workflow
+    - title: Управление листами и заполнение ячеек данными
+      url: /p2_landing_page.html
+      output: web
+
+    - title: Операции с книгами, листами и файлами
+      url: /p2_landing_page.html
+      output: web
+
+    - title: Диапазоны ячеек смежные и несмежные
+      url: /p2_landing_page.html
+      output: web
+
+    - title: Редактирование данных листа
+      url: /p2_landing_page.html
+      output: web
+
+    - title: Форматирование ячеек таблицы
+      url: /p2_landing_page.html
+      output: web
+
+    - title: Формулы и функции
+      url: /p2_landing_page.html
+      output: web
+
+    - title: Графики и диаграммы
+      url: /p2_landing_page.html
+      output: web
+
+    - title: Просмотр и печать документов
+      url: /p2_landing_page.html
+      output: web
+
+  - title: САМОУЧИТЕЛЬ EXCEL С ПРИМЕРАМИ ДЛЯ ПОЛЬЗОВАТЕЛЕЙ СРЕДНЕГО УРОВНЯ
     output: web, pdf
     folderitems:
 
-    - title: Sample 1
+    - title: Решения проблем с введением данных в ячейки
       url: /p2_sample1.html
       output: web, pdf
 
-    - title: Sample 2
+    - title: Автоматическое заполнение ячеек таблиц
       url: /p2_sample2.html
       output: web, pdf
 
-    - title: Sample 3
+    - title: Форматирование ячеек
       url: /p2_sample3.html
       output: web, pdf
 
-    - title: Sample 4
+    - title: Защита данных
       url: /p2_sample4.html
       output: web, pdf
 
-    - title: Sample 5
+    - title: Работа с таблицами
+      url: /p2_sample5.html
+      output: web, pdf
+    
+    - title: Формулы в Excel
       url: /p2_sample5.html
       output: web, pdf
 
-  - title: Complex Workflow
-    output: web, pdf
-    folderitems:
-
-    - title: Sample 6
-      url: /p2_sample6.html
+    - title: Имена диапазонов ячеек
+      url: /p2_sample5.html
       output: web, pdf
 
-    - title: Sample 7
-      url: /p2_sample7.html
+    - title: Создание диаграмм и графиков в Excel
+      url: /p2_sample5.html
       output: web, pdf
 
-    - title: Sample 8
-      url: /p2_sample8.html
+    - title: Подбор параметра, поиск решения и сценарии
+      url: /p2_sample5.html
       output: web, pdf
 
-    - title: Sample 9
-      url: /p2_sample9.html
+    - title: Подбор параметра, поиск решения и сценарии
+      url: /p2_sample5.html
       output: web, pdf
 
-    - title: Sample 10
-      url: /p2_sample10.html
-      output: web, pdf
-
-    - title: Sample 11
-      url: /p2_sample11.html
-      output: web, pdf
-
-    - title: Sample 12
-      url: /p2_sample12.html
-      output: web, pdf
-
-    - title: Sample 13
-      url: /p2_sample13.html
-      output: web, pdf
-
-    - title: Sample 14
-      url: /p2_sample14.html
-      output: web, pdf
