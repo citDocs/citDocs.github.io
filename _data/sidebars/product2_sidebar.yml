@@ -24,15 +24,15 @@ entries:
     folderitems:
 
     - title: Подготовка к работе
-      url: /p2_landing_page.html
+      url: /p2_sample1.html
       output: web
 
     - title: Управление листами и заполнение ячеек данными
-      url: /p2_landing_page.html
+      url: /p2_sample2.html
       output: web
 
     - title: Операции с книгами, листами и файлами
-      url: /p2_landing_page.html
+      url: /p2_sample3.html
       output: web
 
     - title: Диапазоны ячеек смежные и несмежные
