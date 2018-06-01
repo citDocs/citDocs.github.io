@@ -7,7 +7,7 @@ permalink: p1_sample1.html
 folder: product1
 ---
 
-# <center>ПОДГОТОВКА К РАБОТЕ</center>
+# ПОДГОТОВКА К РАБОТЕ
 
 ## <center>ЗНАКОМСТВО С ОКНОМ EXCEL И ЗАКЛАДКАМИ</center>
 
@@ -21,11 +21,11 @@ folder: product1
 
 Рисунок 1.1. Так выглядит окно после загрузки программы:
 
-![картинка](/images/img11.png)
+![](/images/img11.PNG)
 
 Рисунок 1.2:
 
-![картинка](/images/img11.png)
+![](/images/img11.PNG)
 
 Полоса инструментов – минимизирована.
 
