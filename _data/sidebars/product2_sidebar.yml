@@ -32,7 +32,7 @@ entries:
       output: web
 
     - title: Операции с книгами, листами и файлами
-      url: /p2_sample3.html
+      url: /p2_sample13.html
       output: web
 
     - title: Диапазоны ячеек смежные и несмежные
