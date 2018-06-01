@@ -4,7 +4,6 @@ keywords: sample
 summary: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: p2_sample10.html
-toc: false
 folder: product2
 ---
 
