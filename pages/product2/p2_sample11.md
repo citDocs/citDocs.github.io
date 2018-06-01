@@ -4,26 +4,75 @@ keywords: sample
 summary: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: p2_sample11.html
-complex_map: true
-map_name: usermapcomplex
-box_number: 2
 toc: false
 folder: product2
 ---
 
-## Sample Content
+## ОШИБКИ EXCEL ПРИ ОКРУГЛЕНИИ И ВВЕДЕНИИ ДАННЫХ В ЯЧЕЙКИ
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Excel старается облегчить наш труд разными подсказками и авто-подстановками. Если все это выполняется вместе с нашими ожиданиями мы в восторге от этой программы. Но если авто-подстановка является ошибочной мы просто выходим из себя.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Например, ошибки при округлении дробных чисел и т.п. Давайте разберемся почему часто возникают ошибки при округлении чисел? Ведь данная операция играет очень важную роль в процессе формирования цен и расчетов. Поэтому лучше как можно раньше разобраться в данной особенности программы.
 
+### ОШИБКИ ПРИ ОКРУГЛЕНИИ ДРОБНЫХ ЧИСЕЛ
 
-## More sample content
+Как правильно округлить и суммировать числа в Excel?
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Для наглядного примера выявления подобного рода ошибок введите дробные числа 1,3 и 1,4 так как показано на рисунке, а под ними формулу для суммирования и вычисления результата.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+![картинка](/images/img11.png)
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+Дальше нужно выделить все числа и формулу, чтобы уменьшить разрядность для округления.
+
+Как видите, в результате получаем абсурд: 1+1=3. Никакие форматы здесь не помогут. Решить данный вопрос поможет только функция «ОКРУГЛ». Запишите формулу с функцией так: =ОКРУГЛ(A1;0)+ОКРУГЛ(A2;0)
+
+![картинка](/images/img11.png)
+
+Как правильно округлить и суммировать числа в столбце таблицы Excel? Если этих чисел будет целый столбец, то для быстрого получения точных расчетов следует использовать массив функций. Для этого мы введем такую формулу: =СУММ(ОКРУГЛ(A1:A7;0)). После ввода массива функций следует нажимать не «Enter», а комбинацию клавиш Ctrl+Shifi+Enter. В результате Excel сам подставит фигурные скобки «{}» – это значит, что функция выполняется в массиве. Результат вычисления массива функций на картинке:
+
+![картинка](/images/img11.png)
+
+Можно пойти еще более рискованным путем, но его применять крайне **не рекомендуется!** Можно заставить Excel изменять содержимое ячейки в зависимости от ее формата. Для этого следует зайти «Файл»-«Параметры»-«Дополнительно» и в разделе «При пересчете этой книги:» указать «задать точность как на экране». Появиться предупреждение: «Данные будут изменены - точность будет понижена!»
+
+![картинка](/images/img11.png)
+
+**Внимание!!!** Работая в таком режиме, изменив один раз количество разрядов, уже нельзя вернуть исходные данные обратно. Это путь только в одну сторону. Поэтому лучше его не использовать. А массив функций прекрасно и безопасно справляется с данной задачей.
+
+Здесь мы забегаем вперед, но иногда без этого сложно объяснить решение важных задач.
+
+### ПИШЕМ В EXCEL СЛОВО ИСТИНА ИЛИ ЛОЖЬ КАК ТЕКСТ
+
+Заставить программу воспринимать слова логических типов данных как текст можно двумя способами:
+
+1. вначале вписать форматирующий символ;
+2. изменить формат ячейки на текстовый.
+
+В ячейке А1 реализуем первый способ, а в А2 – второй.
+
+#### Упражнение 1: 
+
+В ячейку А1 введите слово с форматирующим символом так: «’истина». Обязательно следует поставить в начале слова символ апострофа «’», который можно ввести с английской раскладки клавиатуры (в русской раскладке символа апострофа нет). Тогда Excel скроет первый символ и будет воспринимать слова «истина» как текст, а не логический тип данных.
+
+#### Упражнение 2: 
+
+Перейдите на ячейку А2 и вызовите диалоговое окно «Формат ячеек». Например, с помощью комбинации клавиш CTRL+1 или контекстным меню правой кнопкой мышки. На вкладке «Число» в списке числовых форматов выберите «текстовый» и нажмите ОК. После чего введите в ячейку А2 слово «истина».
+
+#### Упражнение 3: 
+
+Для сравнения напишите тоже слово в ячейке А3 без апострофа и изменений форматов.
+
+![картинка](/images/img11.png)
+
+Как видите, апостроф виден только в строке формул.
+
+_Примечание. В ячейках А1 и А2 символы текста не были сменены на большие, а значит не была выполнена авто-подстановка, потому что слово воспринято программой как текст._
+
+### ОТОБРАЖЕНИЕ ФОРМУЛ
+
+Заполните данными ячейки, так как показано ниже на рисунке:
+
+![картинка](/images/img11.png)
+
+Обычно комбинация символов набранных в B3 должна быть воспринята как формула и автоматически выполнен расчет. Но что если нам нужно записать текст именно таким способом и мы не желаем вычислять результат? Решить данную задачу можно аналогичным способом из примера описанного выше.
 
 {% include links.html %}

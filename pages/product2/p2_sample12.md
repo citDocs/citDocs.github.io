@@ -4,26 +4,71 @@ keywords: sample
 summary: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: p2_sample12.html
-complex_map: true
-map_name: usermapcomplex
-box_number: 3
 toc: false
 folder: product2
 ---
 
-## Sample Content
+## ПЕРЕМЕЩЕНИЕ ПО ЯЧЕЙКАМ В EXCEL СТРЕЛКАМИ
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Данный раздел уроков мы начинали с обучения перемещения курсора по пустому листу. Сейчас рассмотрим другие возможности Excel в области управления курсора стрелками для быстрого и удобного перемещения по большим объемам данных.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Первая ситуация напоминает движение по пустой дороге, а вторая – по переполненной. Выполним несколько простых но эффективных упражнений для быстрой работы при управлении данными рабочего листа.
 
+### ПЕРЕМЕЩЕНИЕ СТРЕЛКАМИ В EXCEL
 
-## More sample content
+Заполните строки данными, так как показано на этом рисунке:
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+![картинка](/images/img11.png)
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Задания в данном уроке – не стандартные, но и не сложные, хотя очень полезные.
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+_Примечание! При записи комбинаций горячих клавиш знак «+» означает, что клавиши следует нажимать одновременно, а слово «потом» – означает последовательное нажатие._
+
+Перейдите на ячейку А1. Наилучший способ это сделать, нажать комбинацию горячих клавиш CTRL+HOME. Нажмите на клавишу END потом «стрелка вправо». В предыдущих уроках, когда листы были еще пустыми, данная комбинация просто смещала курсор на самый последний столбец листа. Если в данной строке есть запись, то эта комбинация позволяет нам моментально найти конец заполненного отрывка строки. Но строка может быть разбита на несколько отрезков записей. Тогда данная комбинация перемещает курсор по концам отрезков строки. Для более наглядного примера обратите внимание на рисунок:
+
+1. ![картинка](/images/img11.png)
+
+2. ![картинка](/images/img11.png)
+
+3. ![картинка](/images/img11.png)
+
+4. ![картинка](/images/img11.png)
+
+Клавиша END потом «стрелка влево» выполняет выше описанное перемещение курсора в обратном порядке – соответственно. Каждый раз, когда мы нажимаем на клавишу END, в строке состояния окна программы высвечивается сообщение: "Режим перехода в конец".
+
+![картинка](/images/img11.png)
+
+Все выше описанные действия для перемещения по ячейкам в Excel стрелками так же выполняет нажатие на клавиатуре компьютера CTRL + «стрелка вправо (стрелка влево, вверх и вниз)»
+
+Выберите любую ячейку на листе и нажмите комбинацию клавиш CTRL+END. В результате курсор переместится на перекресток самой последней записи в строке и самой последней записи в столбце. Обратите внимание на рисунок.
+
+![картинка](/images/img11.png)
+
+_Примечание. Если удалить содержимое нескольких ячеек, чтобы изменить адрес перекрестка после нажатия CTRL+END. Но после удаления нужно обязательно сохранить файл. Иначе CTRL+END будет возвращать курсор по старому адресу._
+
+**Таблица действий для перемещения курсором Excel:**
+
+| **Горячие клавиши**                                 | **Действие**                                                                                                             |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Enter	                                              | Стандартное смещение курсора на ячейку вниз. При необходимости в настройках можно изменить в любое направление.          |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Щелчок мышкой                                       |	Перемещение на любую ячейку.                                                                                             |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Стрелки: вверх, вправо, вниз, влево.                | Смещение на одну ячейку в соответствующем направлении к конкретной стрелки.                                              |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| CTRL+G или просто F5                                | Вызов диалогового окна «перейти до:» для ввода адреса ячейки на который нужно сместить курсор.                           |
+|---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| CTRL+HOME                                           | Переход на первую ячейку А1 с любого места листа.                                                                        |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| CTRL+END                                            | Переход на перекресток между последней записью строки и последней записью столбца.                                       |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| CTRL+ «любая стрелка» или END потом «любая стрелка» |	До первой / последней отрезка записи в строке или столбце. Перемещение происходит в направлении соответствующей стрелки. |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| PageUp и PageDown                                   | Прокрутка одного экрана вверх или вниз.                                                                                  |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Alt+PageUp и Alt+PageDown                           | Прокрутка одного экрана вправо или влево.                                                                                |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| CTRL+PageUp и CTRL+PageDown                         |	Переход на следующий / предыдущий лист.                                                                                  |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 
 {% include links.html %}

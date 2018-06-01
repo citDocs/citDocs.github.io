@@ -4,9 +4,6 @@ keywords: sample
 summary: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: p2_sample5.html
-simple_map: true
-map_name: usermap
-box_number: 5
 folder: product2
 ---
 
@@ -19,7 +16,6 @@ folder: product2
 ### НАСТРОЙКА ЦВЕТОВОЙ СХЕМЫ ИНТЕРФЕЙСА EXCEL
 
 В Excel 2013-2016 доступны на выбор только 3 цветовые схемы:
-
 
 * разные цвета
 * темно-серая

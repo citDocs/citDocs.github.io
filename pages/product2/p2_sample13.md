@@ -4,27 +4,128 @@ keywords: sample
 summary: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: p2_sample13.html
-complex_map: true
-map_name: usermapcomplex
-box_number: 3
 toc: false
 folder: product2
 ---
 
+# ОПЕРАЦИИ С КНИГАМИ, ЛИСТАМИ И ФАЙЛАМИ
 
-## Sample Content
+## ПЕРЕМЕЩЕНИЕ И РАССТАНОВКА ЛИСТОВ В ДОКУМЕНТЕ EXCEL
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+На этом уроке мы научимся профессионально работать с листами Excel. Каждый файл в этой программе условно представляет собой «бухгалтерскую книгу с листами».
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+В самых старых версиях Excel и его прародителей: Lotus 1-2-3 и QuattroPro был только один лист. Каждый лист – это дочерняя таблица, которая может быть связанна формулами с другими листами и таблицами в одном файле. Это существенно расширяет возможности программы и улучшает удобство работы с большим объемом данных с прямой или косвенной связью между собой.
 
+Даже если мы можем разместить все таблицы на одном листе, пользоваться несколькими отдельными листами все равно удобней. Например, отчеты по ежемесячным продажам лучше распределить отдельно по листам. Так намного удобней работать. На разные листы можно создавать ссылки для составления сводных отчетов по нескольким месяцам.
 
-## More sample content
+### СОЗДАНИЕ НОВЫХ ЛИСТОВ И ЗАПИСЬ В НИХ ДАННЫХ ОДНОВРЕМЕННО
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+В ячейку А1 на четырех листах следует записать данные: квартал 1, квартал 2, квартал 3 и квартал 4.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+После открытия книги Excel по умолчанию активный Лист1 и ячейка А1. Запишем в нее текст: квартал 1.
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+Создадим еще три листа. Для этого щелкнем на кнопку инструмента «вставить лист», которая расположена справа возле ярлычка последнего листа.
+
+На втором, третьем и четвертом листе введем соответствующие данные: квартал 2, 3 и 4. Перемещаемся по листам кликая по ярлычкам внизу. Или используем переключение между листами в Excel горячие клавиши: CTRL+PageUP и CTRL+PageDown.
+
+![картинка](/images/img11.png)
+
+Или нажмем комбинацию горячих клавиш SHIFT+F11.
+
+При нажатии комбинации SHIFT+F11, каждый новый лист вставляется справа от активного листа. А при клике на кнопке инструмента «вставить лист» новые листы добавляются только после последнего.
+
+Есть еще один способ вставить новый лист между любыми другими листами. Правый щелчок мышкой по желаемому соседнему ярлычку вызывает контекстное меню, из которого следует выбрать опцию «Вставить…».
+
+![картинка](/images/img11.png)
+
+Появится интересное диалоговое окно, которое немного расширяет возможности вставки новых листов.
+
+**Изменение последовательности**
+
+В ново-созданной книге листы упорядочены по умолчанию. При необходимости их последовательность можно менять.
+
+Наведите курсор мышки на ярлычок листа, который желаете переместить, удерживая левую клавишу, перемещайте в желаемое место между другими ярлычками. Если в процессе выполнения этих действий удерживать на клавиатуре клавишу CTRL, то произойдет копирование. Исходный лист останется на своем месте, а новый переместится в нужное вам последовательное место.
+
+![картинка](/images/img11.png)
+
+**Переименование названия на ярлычке листа**
+
+Стандартные названия листов следует изменить на: 2015-I, 2015-II, 2015-III, 2015-IV (в соответствии с годовыми кварталами).
+
+Для этого правой кнопкой мышки кликаем по ярлычку листа для вызова контекстного меню. В нем выбираем опцию «Переименовать». Или просто сделайте двойной щелчок левой клавишей мышки прямо по названию листа.
+
+![картинка](/images/img11.png)
+
+![картинка](/images/img11.png)
+
+Теперь название выделено и доступно для редактирования. Вводим свое название: «2015-I». Чтобы сохранить изменения кликните мышкой в любом месте или нажмите «Enter». А если вы передумали, нажмите «ESC» для отмены переименования. Аналогичным способом меняем все соответствующие названия для каждого квартала.
+
+_Примечание. В одной книге не может быть одинаковых названий листов. Иначе может возникнуть конфликт имен при копировании. Максимальная длина названия составляет всего 31 символ. Не допустимые символы в названиях: / ? * :._
+
+**Копирование листов**
+
+Очень часто возникает потребность в копировании листа Excel без потери данных. Например, при обычном копировании содержимого ячеек не сохраняются настройки ширины столбцов и высоты строк. Намного эффективнее копировать не содержимое, а сам лист целиком.
+
+Наведите курсор мышки на закладку листа, который нужно скопировать и удерживая левую клавишу + CTRL перемещаем копию в требуемое место между другими закладками.
+
+**Внимание!** <ins>Отпускаем сначала мышку, а потом CTRL .</ins>
+
+![картинка](/images/img11.png)
+
+Заметьте те же действия что и при перемещении, только с нажатой на клавиатуре клавишей CTRL.
+
+Таким образом, часто копируются ежемесячные отчеты о доходах и расходах. Структура их идентичная только изменяются данные и названия месяца.
+
+**Введение данных в несколько листов одновременно**
+
+В ячейку А1 для шести листов одновременно введем текст: ежемесячные расчеты.
+
+Левой кнопкой мышки активируйте закладку первого листа, удерживая клавишу CTRL, активируйте еще две закладки. Таким образом, у вас будет одновременно активных 3 листа.
+
+![картинка](/images/img11.png)
+
+![картинка](/images/img11.png)
+
+_Примечание! Такого же результата можно достигнуть, если активировать первый лист и удерживая клавишу SHIFT активировать последний. Данный способ более удобный, когда нужно выделять много и быстро._
+
+Теперь на закладке «Главная» в разделе ячейки выберите «Вставить»-«Вставить лист» или нажмите SHIFT+F11. Одновременно добавится еще три новых листа. Теперь выделите 6 листов как описано выше и в ячейку А1 введите текст «ежемесячные расчеты» и нажмите «Enter». Так вы за одну операцию ввели данные сразу на 6-ти листах одновременно! Проверьте результат, периодически нажимая CTRL+PageUp для перемещения по листам вперед и PageDown – назад.
+
+Возле ярлычков слева находится эффективный инструмент для перемещения по листам. Данный инструмент позволяет переходить на следующий / предыдущий, самый первый / самый последний лист.
+
+![картинка](/images/img11.png)
+
+Если книга содержит множество листов можно уменьшить ширину нижней полосы прокрутки по горизонтали. Для этого следует навести курсор мышки на край полосы прокрутки, удерживая левую клавишу уменьшить ее размер, чтобы было видно больше закладок. Двойной щелчок мышки по этому же краю полосы прокрутки возвращает ее стандартный размер.
+
+**Альтернативные способы перемещения по листам**
+
+Когда в книге несколько десятков листов, нужны дополнительные эффективный инструменты навигации по ним. Например, очень удобное контекстное меню, которое вызывается правой кнопкой мышки по инструменту навигации закладок (находится слева от закладок).
+
+![картинка](/images/img11.png)
+
+![картинка](/images/img11.png)
+
+Выбирайте, переходите быстро и удобно. Данное меню вмещает в себе до 15-ти листов, но внизу есть опция «Все листы».
+
+_Примечание! Если отображается опция «Все листы» значит, книга содержит их более 15-ти штук. В другом случае опция не доступна и не отображается._
+
+Выбрав данный пункт, появляется окошко «Переход к листу текущей книги», в котором могут отображаться все листы. Выбирайте из списка и жмите ОК.
+
+**Удаление листа**
+
+Удалить листы можно двумя способами:
+
+1. Из контекстного меню вызванного правой кнопкой мышки по закладке листа которого следует удалить выберете опцию «Удалить».
+
+2. На закладке полосы инструментов «Главная» в разделе «ячейки» выбираем опции меню «удалить»-«удалить лист».
+
+![картинка](/images/img11.png)
+
+![картинка](/images/img11.png)
+
+Если удаляемый лист не пустой появится предупреждение для подтверждения удаления.
+
+**Внимание!** <ins>Помните, восстановить удаленный лист в Excel невозможно!</ins>
+
+Если выделить несколько листов, как описано выше, то все их можно удалить одновременно.
 
 {% include links.html %}

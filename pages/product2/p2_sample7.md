@@ -4,27 +4,112 @@ keywords: sample
 summary: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: p2_sample7.html
-complex_map: true
-map_name: usermapcomplex
-box_number: 1
 toc: false
 folder: product2
 ---
 
+## ЗАПОЛНЕНИЕ ЯЧЕЕК ТЕКСТОМ И ЧИСЛОВЫМИ ЗНАЧЕНИЯМИ
 
-## Sample Content
+Каждый раз, когда мы заполняем ячейки данными, автоматически проверяются типы данных ячейки в Excel. Содержит ли она: цифры, формулы, логические выражения.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Если не подтвердился ни один из выше приведенных типов данных, Excel воспринимает содержимое ячейки как текст или дата.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Введенные данные в ячейку можно редактировать изменять и удалять. Далее рассмотрим способы редактирования ячеек.
 
+Самый простой способ изменения содержимого ячейки – это заново вписать новые данные.
 
-## More sample content
+### ВВОД ТЕКСТА В ЯЧЕЙКУ EXCEL
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Введите в ячейку A1 свое имя. Для этого у вас имеется две возможности:
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+1. Сделайте ячейку активной переместив на нее курсор. Потом введите текст и нажмите «Enter» или просто переместите курсор на любую другую ячейку.    
+  
+2. Сделайте ячейку активной с помощью курсора и введите данные в строку формул (широкое поле ввода под полосой инструментов). И нажмите галочку «Ввод». 
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+![картинка](/images/img11.png) 
+
+Если вы передумали заполнять ячейку то в место «Enter» или «Ввод» жмите «ESC».
+
+Клавиша «Enter» или инструмент строки формул «Ввод» подтверждают запись данных в ячейку.
+
+**Заметьте!** Если воспользоваться первой возможностью то после подтверждения «Enter» курсор сместится на соседнюю ячейку вниз (при настройках по умолчанию). Если же использовать вторую возможность и подтвердить галочкой «Ввод», то курсор останется на месте.
+
+### КАК УМЕСТИТЬ ДЛИННЫЙ ТЕКСТ В ЯЧЕЙКЕ EXCEL?
+
+Заполните ячейки текстом, так как показано на рисунке, чтобы содержимое вмещалось в ячейках.
+
+По умолчанию ширина ячеек не позволяет вместить длинные тексты и в результате мы видим такую картинку: 
+
+![картинка](/images/img11.png)
+
+#### Упражнение 1: 
+
+Чтобы уместить длинный текст в ячейке Excel, наведите курсор мыши на границу заголовков колонок ячеек между A и B. Курсор изменит свой внешний вид как показано на рисунке. После чего сделайте двойной щелчок левой клавишей мыши. Ширина колонки автоматически оптимизируется под ширину самого длинного текста.
+
+![картинка](/images/img11.png)
+
+#### Упражнение 2: 
+
+Наведите курсор мыши на границу заголовков колонок ячеек между B и C. Курсор мышки изменит свой вид. После чего удерживая левую клавишу мышки, перемещайте курсор для изменения ширины колонки до необходимого размера. Аналогичным способом как описано в этих двух практических заданиях можно изменять высоту строки. Только здесь курсор следует наводить на границы между номерами строк. А дальше перемещать его для изменения высоты или делать двойной щелчок для автоматической подстройки. Задать ширину столбца или высоту строки можно вручную с помощью курсора или контекстного меню. Щелчок правой кнопкой по заголовку и опция «Ширина столбца» «Высота строки». **Интересный факт!** При изменении ширины столбца / строки курсором, подсвечивается информация о размерах в разных единицах измерения:
+
+![картинка](/images/img11.png)
+
+1. Ширина столбца в количестве символов стандартного размера шрифта(Calibri 11 пунктов) – по умолчанию 8,43 символов такая длина текста в стандартной ячейке. Таким образом, можно быстро определить длину текста в ячейке Excel. Но чаще всего для этого применяется функция ДЛСТР (сокращенно длинна строки). Этой же функцией определяется и количество цифр одной ячейке.
+   
+2. Высота строки в пунктах измерения высоты шрифтов – по умолчанию 15 пунктов.
+  
+3. В скобках размеры указаны в пикселях и для столбцов и для строк.
+
+В Excel 2013-2016 можно задать размеры строк и столбцов в сантиметрах. Для этого нужно перейти в режим разметки страниц: «Вид»-«Разметка страницы». Щелкаем правой кнопкой по заголовку столбца или строки и выберем опцию «ширина». Потом вводим значение в сантиметрах. Этого особенно удобно при подготовке документа для вывода на печать. Ведь мы знаем размеры формата A4: ширина 21см и высота 29,7см.
+
+Но благодаря показателям в пикселях при обычном режиме, то можно пересчитать самому в сантиметры, используя данные для конвертации единиц измерений:
+
+* 0,98 см = 37 пикселей;
+* 1,01 см = 38 пикселей;
+* 0,50 см = 19 пикселей.
+
+### ВВЕДЕНИЕ ЦИФР В ЯЧЕЙКИ EXCEL
+
+Вводить текстовые данные в ячейки уже умеем, теперь разберемся с заполнением цифровых данных. Заполните простую табличку как показано на рисунке:
+
+![картинка](/images/img11.png)
+
+_Обратите внимание!_ По умолчанию текст выравнивается по левей стороне ячеек, а цифры по правой. Данная особенность позволяет быстро найти цифры в ячейке и не спутать их с текстом (ведь текст также содержит символы цифр, но не позволяет производить с ними математические расчеты). Например, если в место запятой в качестве разделителя разрядов стоит точка или пробел, то цифры распознаны как дата и текст соответственно, из-за чего потом не работают расчеты. Таким образом, можно быстро сориентироваться, как распознала программа введенные данные: как текст или как цифру. Например, если мы будем отделять десятые части не запятой, а точкой, то данные цифр распознаются как дата. Будьте внимательны с типами данных для заполнения.
+
+#### Упражнение 1:
+
+Наведите курсор мышки на ячейку C2 и удерживая левую клавишу проведите его вниз до ячейки C3. Вы выделили диапазон из 2-ух ячеек (C2:C3) для дальнейшей работы с ними. На полосе инструментов выберите закладку «Главная» и щелкните на инструмент «Увеличить разрядность» как показано на рисунке:
+
+![картинка](/images/img11.png)
+
+Не трудно догадаться, что рядом расположен инструмент «Уменьшить разрядность». Так можно изменять формат ячеек на числовой для отображения цифр разным количеством разрядности (количество цифр отображаемых после запятой).
+
+Оба эти инструмента автоматически меняют форматы ячеек на «числовой». Чтобы изменить формат ячеек на «числовой» так же можно воспользоваться диалоговым окном настройки форматов. Для его вызова необходимо зайти: «Главная»-«Число» и щелкнуть на уголок со стрелочкой как показано на рисунке:
+
+![картинка](/images/img11.png)
+
+Данное окно можно вызвать комбинацией горячих клавиш CTRL+1.
+
+### ВВЕДЕНИЕ ВАЛЮТ И ПРОЦЕНТОВ
+
+К нашей табличке добавьте еще данных, как показано ниже на рисунке.
+
+#### Упражнение 1: 
+
+Выделите диапазон ячеек D2:D3 и установите финансовый числовой формат. В диапазоне E2:E3 сделайте процентный формат. В результате должно получиться так:
+
+![картинка](/images/img11.png)
+
+Формат – это свойство ячейки, а не ее содержимое. Поэтому обычно сначала вводятся данные, а потом изменяется формат отображения данных. В отдельных случаях лучше сделать в обратном порядке.
+
+#### Упражнение 2: 
+
+Введите в пустую ячейку суму с валютой следующим образом. Нажмите «Enter» и вы увидите, что программа сама присвоит ячейке финансовый формат. То же самое можно сделать с процентами.
+
+![картинка](/images/img11.png)
+
+В Excel версии 2007 и 2010 предусмотрено несколько валют для быстрого ввода при установке формата ячеек. Посмотрите выпадающий список валют и измените формат на Евро:
+
+![картинка](/images/img11.png)
 
 {% include links.html %}

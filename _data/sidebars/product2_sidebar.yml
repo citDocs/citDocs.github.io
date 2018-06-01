@@ -28,7 +28,7 @@ entries:
       output: web
 
     - title: Управление листами и заполнение ячеек данными
-      url: /p2_sample2.html
+      url: /p2_sample6.html
       output: web
 
     - title: Операции с книгами, листами и файлами

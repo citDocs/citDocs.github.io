@@ -4,28 +4,62 @@ keywords: sample
 summary: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: p2_sample9.html
-complex_map: true
-map_name: usermapcomplex
-box_number: 2
 toc: false
 folder: product2
 ---
 
+## СОЗДАНИЕ РЕДАКТИРОВАНИЕ И ПЕЧАТЬ ПРИМЕЧАНИЙ ЯЧЕЕК
 
+Примечаний служат для записи дополнительных заметок. Узнать ячейку, которая содержит примечание легко по маленькому красному треугольнику в верхнем правом углу ячейки (данный треугольник называется индикатором).
 
-## Sample Content
+Если навести курсор мышки на такую ячейку с треугольником, сразу подсвечивается примечание в цветном прямоугольнике.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Рассмотрим создание и редактирование примечаний в Excel.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+### СОЗДАНИЕ ПРИМЕЧАНИЯ ДЛЯ ЯЧЕЙКИ
 
+К таблице из предыдущих уроков создадим примечание для ячейки E2, содержащее сообщение: «Премия увеличена одноразово на 10%». Как вставить примечание в Excel 2013-2016. Об этом узнаете из следующих заданий.
 
-## More sample content
+#### Упражнение 1: 
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Щелкните правой кнопкой мышки по ячейке F2. В появившимся контекстном меню, выберите опцию «Вставить примечание». Или нажмите комбинацию горячих клавиш SHIFT+F2. После ввода текста в прямоугольник, сделайте щелчок по любой другой ячейке, чтобы записать текст в примечание.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+![картинка](/images/img11.png)
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+Если не менять настроек по умолчанию, то заметки не будут выводиться на печать. О том, как вывести на печать примечания в Excel, рассмотрим далее.
+
+### ОТОБРАЖЕНИЕ И СКРЫТИЕ ПРИМЕЧАНИЙ
+
+Как отобразить / скрыть примечания в Excel 2013-2016, записанные в ячейках листа?
+
+#### Упражнение 1: 
+
+Заходим в настройки: «Файл»-«Параметры»-«Дополнительно». В разделе «Экран» и подразделе «Для ячеек с примечаниями показывать» следует установить опцию «примечания и индикаторы» и нажмите OK. Таким образом, все комментарии будут постоянно отображаться.
+
+![картинка](/images/img11.png)
+
+Если в данных настройках установить опцию «ни примечания, ни индикаторы», то не будут отображаться треугольники и заметки даже при наведении курсора на соответствующую ячейку.
+
+Постоянно отображать комментарии можно и по отдельности. Для этого необходимо щелкнуть правой кнопкой мышки по ячейки с примечанием и выбрать опцию контекстного меню «Показывать или скрыть примечания». Так будут постоянно отображаться только выбранные заметки. Чтобы опять их скрыть нужно в каждой ячейке с помощью контекстного меню указать свойство «Скрыть примечание».
+
+### ПЕЧАТЬ ПРИМЕЧАНИЙ ЛИСТА EXCEL
+
+Как распечатать все примечания в Excel 2013-2016.
+
+#### Упражнение 1: 
+
+На полосе инструментов выберите закладку «Разметка страницы». Вызовите диалоговое окно «Параметры страницы» с помощью кнопки в правом нижнем углу соответствующего раздела инструментов.
+
+![картинка](/images/img11.png)
+
+В появившемся диалоговом окне перейдите на вкладку «Лист». А в секции «Печать» откройте выпадающий список опций «Примечания» и выберите один из двух вариантов:
+
+1. в конце листа;
+
+2. как на листе.
+
+![картинка](/images/img11.png)
+
+После чего сохраните настройки, нажав на кнопку ОК.
 
 {% include links.html %}
