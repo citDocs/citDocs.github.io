@@ -44,19 +44,19 @@ entries:
       output: web
 
     - title: Форматирование ячеек таблицы
-      url: /p2_landing_page.html
+      url: /p2_sample27.html
       output: web
 
     - title: Формулы и функции
-      url: /p2_landing_page.html
+      url: /p2_sample34.html
       output: web
 
     - title: Графики и диаграммы
-      url: /p2_landing_page.html
+      url: /p2_sample41.html
       output: web
 
     - title: Просмотр и печать документов
-      url: /p2_landing_page.html
+      url: /p2_sample43.html
       output: web
 
   - title: САМОУЧИТЕЛЬ EXCEL С ПРИМЕРАМИ ДЛЯ ПОЛЬЗОВАТЕЛЕЙ СРЕДНЕГО УРОВНЯ
@@ -64,42 +64,42 @@ entries:
     folderitems:
 
     - title: Решения проблем с введением данных в ячейки
-      url: /p2_sample1.html
+      url: /en_sample1.html
       output: web, pdf
 
     - title: Автоматическое заполнение ячеек таблиц
-      url: /p2_sample2.html
+      url: /en_sample4.html
       output: web, pdf
 
     - title: Форматирование ячеек
-      url: /p2_sample3.html
+      url: /en_sample9.html
       output: web, pdf
 
     - title: Защита данных
-      url: /p2_sample4.html
+      url: /en_sample13.html
       output: web, pdf
 
     - title: Работа с таблицами
-      url: /p2_sample5.html
+      url: /en_sample19.html
       output: web, pdf
     
     - title: Формулы в Excel
-      url: /p2_sample5.html
+      url: /en_sample24.html
       output: web, pdf
 
     - title: Имена диапазонов ячеек
-      url: /p2_sample5.html
+      url: /en_sample31.html
       output: web, pdf
 
     - title: Создание диаграмм и графиков в Excel
-      url: /p2_sample5.html
+      url: /en_sample37.html
       output: web, pdf
 
     - title: Подбор параметра, поиск решения и сценарии
-      url: /p2_sample5.html
+      url: /en_sample48.html
       output: web, pdf
 
     - title: Подбор параметра, поиск решения и сценарии
-      url: /p2_sample5.html
+      url: /en_sample52.html
       output: web, pdf
 
