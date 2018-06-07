@@ -3,15 +3,15 @@
        
   <ul id="mysidebar" class="nav">
           <li>
-          <a href="#">{{ folder.title }}Раскрыть меню</a>
+          <a href="#">{{ folder.title }}Раскрыть..</a>
            <ul>       
-                  <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
+              <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
           {% for entry in sidebar %}
           {% for folder in entry.folders %}
           {% if folder.output contains "web" %}
-          <li>
-            <a href="#">{{ folder.title }}</a>
-                <ul>
+              <li>
+                 <a href="#">{{ folder.title }}</a>
+                 <ul>
                     {% for folderitem in folder.folderitems %}
                     {% if folderitem.output contains "web" %}
                     {% if folderitem.external_url %}
