@@ -38,6 +38,6 @@ folder: product2
 
 | [<< ЗНАКОМСТВО С ОКНОМ EXCEL И ЗАКЛАДКАМИ](p2_sample1.html) |  
  
-|                                           | [СОЗДАНИЕ, КОПИРОВАНИЕ И ПЕРЕМЕЩЕНИЕ ЛИСТОВ В КНИГАХ EXCEL >>](p2_sample3.html) |
+| | [СОЗДАНИЕ, КОПИРОВАНИЕ И ПЕРЕМЕЩЕНИЕ ЛИСТОВ В КНИГАХ EXCEL >>](p2_sample3.html) |
 
 {% include links.html %}

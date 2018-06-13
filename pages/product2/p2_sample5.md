@@ -37,6 +37,6 @@ folder: product2
 
 | [<< ПАНЕЛЬ БЫСТРОГО ДОСТУПА](p2_sample4.html) |
 
-|                             | [БЫСТРОЕ ПЕРЕМЕЩЕНИЕ КУРСОРА ПО ЯЧЕЙКАМ ЛИСТА EXCEL >>](p2_sample6.html) |
+| | [БЫСТРОЕ ПЕРЕМЕЩЕНИЕ КУРСОРА ПО ЯЧЕЙКАМ ЛИСТА EXCEL >>](p2_sample6.html) |
 
 {% include links.html %}
