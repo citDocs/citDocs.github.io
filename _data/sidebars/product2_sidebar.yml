@@ -63,7 +63,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Решения проблем с введением данных в ячейки
+    - title: Решения проблем с введением данных
       url: /en_sample1.html
       output: web, pdf
 
