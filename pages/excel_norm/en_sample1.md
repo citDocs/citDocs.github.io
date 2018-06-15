@@ -1,7 +1,6 @@
 ---
-title: Sample 1 Topic (Product 1)
+title: Решения проблем с введением данных в ячейки
 keywords: sample
-summary: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: en_sample1.html
 folder: excel_norm

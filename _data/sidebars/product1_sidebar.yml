@@ -23,11 +23,11 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: УРОКИ EXCEL ДЛЯ ЧАЙНИКОВ И НАЧИНАЮЩИХ ПОЛЬЗОВАТЕЛЕЙ
+    - title: статья 1
       url: /p1_sample1.html
       output: web
-    - title: САМОУЧИТЕЛЬ EXCEL С ПРИМЕРАМИ ДЛЯ ПОЛЬЗОВАТЕЛЕЙ СРЕДНЕГО УРОВНЯ
-      url: /p1_sample2.html
+    - title: статья 2
+      url: /p1_sample1.html
       output: web
 
   - title: Дисциплина 2
@@ -35,23 +35,23 @@ entries:
     folderitems:
 
     - title: Статья 1
-      url: /p2_sample1.html
+      url: /p1_sample1.html
       output: web, pdf
 
     - title: Статья 2
-      url: /p2_sample2.html
+      url: /p1_sample1.html
       output: web, pdf
 
     - title: Статья 3
-      url: /p2_sample3.html
+      url: /p1_sample1.html
       output: web, pdf
 
     - title: Статья 4
-      url: /p2_sample4.html
+      url: /p1_sample1.html
       output: web, pdf
 
     - title: Статья 5
-      url: /p2_sample5.html
+      url: /p1_sample1.html
       output: web, pdf
 
   - title: Дисциплина 3
@@ -59,37 +59,18 @@ entries:
     folderitems:
 
     - title: Статья 1
-      url: /p2_sample6.html
+      url: /p1_sample1.html
       output: web, pdf
 
     - title: Статья 2
-      url: /p2_sample7.html
+      url: /p1_sample1.html
       output: web, pdf
 
     - title: Статья 3
-      url: /p2_sample8.html
+      url: /p1_sample1.html
       output: web, pdf
 
     - title: Статья 4
-      url: /p2_sample9.html
+      url: /p1_sample1.html
       output: web, pdf
 
-    - title: Статья 5
-      url: /p2_sample10.html
-      output: web, pdf
-
-    - title: Статья 6
-      url: /p2_sample11.html
-      output: web, pdf
-
-    - title: Статья 7
-      url: /p2_sample12.html
-      output: web, pdf
-
-    - title: Статья 8
-      url: /p2_sample13.html
-      output: web, pdf
-
-    - title: Статья 9
-      url: /p2_sample14.html
-      output: web, pdf
