@@ -18,7 +18,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Раздел 1: Решения проблем с введением данных в ячейки
+  - title: Решения проблем с введением данных в ячейки
     output: web, pdf
     folderitems:
 
@@ -34,7 +34,7 @@ entries:
       url: /en_sample3.html
       output: web
 
-  - title: Раздел 2: Автоматическое заполнение ячеек таблиц
+  - title: Автоматическое заполнение ячеек таблиц
     output: web, pdf
     folderitems:
 
@@ -58,7 +58,7 @@ entries:
       url: /p2_sample8.html
       output: web, pdf
 
-  - title: Раздел 3: Форматирование ячеек
+  - title: Форматирование ячеек
     output: web, pdf
     folderitems:
 
@@ -78,7 +78,7 @@ entries:
       url: /en_sample12.html
       output: web, pdf
     
-  - title: Раздел 4: Защита данных
+  - title: Защита данных
     output: web, pdf
     folderitems:
 
@@ -106,7 +106,7 @@ entries:
       url: /en_sample18.html
       output: web, pdf
 
-  - title: Раздел 5: Работа с таблицами
+  - title: Работа с таблицами
     output: web, pdf
     folderitems:
 
@@ -130,7 +130,7 @@ entries:
       url: /en_sample23.html
       output: web, pdf
 
-  - title: Раздел 6: Формулы в Excel
+  - title: Формулы в Excel
     output: web, pdf
     folderitems:
 
@@ -162,7 +162,7 @@ entries:
       url: /en_sample30.html
       output: web, pdf
 
-  - title: Раздел 7: Имена диапазонов ячеек
+  - title: Имена диапазонов ячеек
     output: web, pdf
     folderitems:
 
@@ -190,7 +190,7 @@ entries:
       url: /en_sample36.html
       output: web, pdf
 
-  - title: Раздел 8: Создание диаграмм и графиков в Excel
+  - title: Создание диаграмм и графиков в Excel
     output: web, pdf
     folderitems:
 
@@ -238,7 +238,7 @@ entries:
       url: /en_sample47.html
       output: web, pdf
 
-  - title: Раздел 9: Подбор параметра, поиск решения и сценарии
+  - title: Подбор параметра, поиск решения и сценарии
     output: web, pdf
     folderitems:
 
@@ -258,7 +258,7 @@ entries:
       url: /en_sample51.html
       output: web, pdf
 
-  - title: Раздел 10: Подбор параметра, поиск решения и сценарии
+  - title: Подбор параметра, поиск решения и сценарии
     output: web, pdf
     folderitems:
 

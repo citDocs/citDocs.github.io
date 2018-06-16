@@ -18,7 +18,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Раздел 1: Подготовка к работе
+  - title: Подготовка к работе
     output: web, pdf
     folderitems:
 
@@ -42,7 +42,7 @@ entries:
       url: /p2_sample5.html
       output: web
 
-  - title: Раздел 2: Управление листами и заполнение ячеек данными
+  - title: Управление листами и заполнение ячеек данными
     output: web, pdf
     folderitems:
 
@@ -74,7 +74,7 @@ entries:
       url: /p2_sample12.html
       output: web, pdf
   
-  - title: Раздел 3: Операции с книгами, листами и файлами
+  - title: Операции с книгами, листами и файлами
     output: web, pdf
     folderitems:
 
@@ -98,7 +98,7 @@ entries:
       url: /p2_sample17.html
       output: web, pdf
     
-  - title: Раздел 4: Диапазоны ячеек смежные и несмежные
+  - title: Диапазоны ячеек смежные и несмежные
     output: web, pdf
     folderitems:
 
@@ -110,7 +110,7 @@ entries:
       url: /p2_sample19.html
       output: web, pdf
 
-  - title: Раздел 5: Редактирование данных листа
+  - title: Редактирование данных листа
     output: web, pdf
     folderitems:
 
@@ -142,7 +142,7 @@ entries:
       url: /p2_sample26.html
       output: web, pdf
 
-  - title: Раздел 6: Форматирование ячеек таблицы
+  - title: Форматирование ячеек таблицы
     output: web, pdf
     folderitems:
 
@@ -162,7 +162,7 @@ entries:
       url: /p2_sample30.html
       output: web, pdf
 
-    - title: Учет времени: суммирование вычитание разницы часов и минут
+    - title: Учет времени. Cуммирование вычитание разницы часов и минут
       url: /p2_sample31.html
       output: web, pdf
 
@@ -174,7 +174,7 @@ entries:
       url: /p2_sample33.html
       output: web, pdf
 
-  - title: Раздел 7: Формулы и функции
+  - title: Формулы и функции
     output: web, pdf
     folderitems:
 
@@ -206,7 +206,7 @@ entries:
       url: /p2_sample40.html
       output: web, pdf
 
-  - title: Раздел 8: Графики и диаграммы
+  - title: Графики и диаграммы
     output: web, pdf
     folderitems:
 
@@ -218,11 +218,11 @@ entries:
       url: /p2_sample42.html
       output: web, pdf
 
-  - title: Раздел 9: Просмотр и печать документов
+  - title: Просмотр и печать документов
     output: web, pdf
     folderitems:
 
-    - title: Просмотр данных разными способами: примеры
+    - title: Просмотр данных разными способами. Примеры
       url: /p2_sample43.html
       output: web, pdf
 
