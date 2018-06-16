@@ -1,8 +1,8 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: УРОКИ РАБОТЫ В EXCEL ДЛЯ НАЧИНАЮЩИХ И ОПЫТНЫХ ПОЛЬЗОВАТЕЛЕЙ
-  product: Excel 2013
+- title: УРОКИ EXCEL ДЛЯ ЧАЙНИКОВ И НАЧИНАЮЩИХ ПОЛЬЗОВАТЕЛЕЙ
+  product: EXCEL 2013-2016
   folders:
 
   - title:
@@ -18,87 +18,226 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: УРОКИ EXCEL ДЛЯ ЧАЙНИКОВ И НАЧИНАЮЩИХ ПОЛЬЗОВАТЕЛЕЙ
+  - title: Раздел 1: Подготовка к работе
     output: web, pdf
     folderitems:
 
-    - title: Подготовка к работе
+    - title: Знакомство с окном Excel и закладками
       url: /p2_sample1.html
       output: web
 
-    - title: Управление листами и заполнение ячеек данными
-      url: /p2_sample6.html
+    - title: Панели инструментов на полосе
+      url: /p2_sample2.html
       output: web
 
-    - title: Операции с книгами, листами и файлами
-      url: /p2_sample13.html
+    - title: Создание, копирование и перемещение листов в книгах Excel
+      url: /p2_sample3.html
       output: web
 
-    - title: Диапазоны ячеек смежные и несмежные
-      url: /p2_sample18.html
+    - title: Панель быстрого доступа
+      url: /p2_sample14.html
       output: web
 
-    - title: Редактирование данных листа
-      url: /p2_sample20.html
+    - title: Смена цветовой схемы интерфейса
+      url: /p2_sample5.html
       output: web
 
-    - title: Форматирование ячеек таблицы
-      url: /p2_sample27.html
-      output: web
-
-    - title: Формулы и функции
-      url: /p2_sample34.html
-      output: web
-
-    - title: Графики и диаграммы
-      url: /p2_sample41.html
-      output: web
-
-    - title: Просмотр и печать документов
-      url: /p2_sample43.html
-      output: web
-
-  - title: САМОУЧИТЕЛЬ EXCEL С ПРИМЕРАМИ ДЛЯ ПОЛЬЗОВАТЕЛЕЙ СРЕДНЕГО УРОВНЯ
+  - title: Раздел 2: Управление листами и заполнение ячеек данными
     output: web, pdf
     folderitems:
 
-    - title: Решения проблем с введением данных
-      url: /en_sample1.html
+    - title: Быстрое перемещение курсора по ячейкам листа Excel
+      url: /p2_sample6.html
       output: web, pdf
 
-    - title: Автоматическое заполнение ячеек таблиц
-      url: /en_sample4.html
+    - title: Заполнение ячеек текстом и числовыми значениями
+      url: /p2_sample7.html
       output: web, pdf
 
-    - title: Форматирование ячеек
-      url: /en_sample9.html
+    - title: Введение формул в ячейки для расчетов и вычислений данных
+      url: /p2_sample8.html
       output: web, pdf
 
-    - title: Защита данных
-      url: /en_sample13.html
+    - title: Создание редактирование и печать примечаний ячеек
+      url: /p2_sample9.html
       output: web, pdf
 
-    - title: Работа с таблицами
-      url: /en_sample19.html
+    - title: Логическая функция возражения и значения истина или ложь
+      url: /p2_sample10.html
       output: web, pdf
     
-    - title: Формулы в Excel
-      url: /en_sample24.html
+    - title: Ошибки Excel при округлении и введении данных в ячейки
+      url: /p2_sample11.html
       output: web, pdf
 
-    - title: Имена диапазонов ячеек
-      url: /en_sample31.html
+    - title: Перемещение по ячейкам стрелками
+      url: /p2_sample12.html
+      output: web, pdf
+  
+  - title: Раздел 3: Операции с книгами, листами и файлами
+    output: web, pdf
+    folderitems:
+
+    - title: Перемещение и расстановка листов в документе Excel
+      url: /p2_sample13.html
       output: web, pdf
 
-    - title: Создание диаграмм и графиков в Excel
-      url: /en_sample37.html
+    - title: Как переместить и скопировать лист в другую книгу
+      url: /p2_sample14.html
       output: web, pdf
 
-    - title: Подбор параметра, поиск решения и сценарии
-      url: /en_sample48.html
+    - title: Полезные советы по открытию файлов рабочих книг
+      url: /p2_sample15.html
       output: web, pdf
 
-    - title: Подбор параметра, поиск решения и сценарии
-      url: /en_sample52.html
+    - title: Сохранение книги Excel с эскизом в файл
+      url: /p2_sample16.html
       output: web, pdf
 
+    - title: Завершение работы в программе и закрытие окон рабочих книг
+      url: /p2_sample17.html
+      output: web, pdf
+    
+  - title: Раздел 4: Диапазоны ячеек смежные и несмежные
+    output: web, pdf
+    folderitems:
+
+    - title: Выделение диапазона ячеек
+      url: /p2_sample18.html
+      output: web, pdf
+
+    - title: Заполнение несмежного диапазона ячеек одновременно
+      url: /p2_sample19.html
+      output: web, pdf
+
+  - title: Раздел 5: Редактирование данных листа
+    output: web, pdf
+    folderitems:
+
+    - title: Изменение формата ячеек для отображения данных и создания таблиц
+      url: /p2_sample20.html
+      output: web, pdf
+
+    - title: Редактирование ячейки и разбиение текста на несколько строк
+      url: /p2_sample21.html
+      output: web, pdf
+
+    - title: Как вставить строку или столбец между строками и столбцами
+      url: /p2_sample22.html
+      output: web, pdf
+
+    - title: Как добавить ячейки в таблицу
+      url: /p2_sample23.html
+      output: web, pdf
+
+    - title: Копирование данных листа стандартными средствами Excel
+      url: /p2_sample24.html
+      output: web, pdf
+
+    - title: Буфер обмена Excel расширяет возможности копирования данных
+      url: /p2_sample25.html
+      output: web, pdf
+
+    - title: Копирование диапазонов ячеек с помощью курсора мышки
+      url: /p2_sample26.html
+      output: web, pdf
+
+  - title: Раздел 6: Форматирование ячеек таблицы
+    output: web, pdf
+    folderitems:
+
+    - title: Смена и выравнивание шрифтов в ячейках
+      url: /p2_sample27.html
+      output: web, pdf
+
+    - title: Изменение цвета таблицы
+      url: /p2_sample28.html
+      output: web, pdf
+
+    - title: Автоматическое создание и форматирование таблиц
+      url: /p2_sample29.html
+      output: web, pdf
+
+    - title: Как вычислить дату
+      url: /p2_sample30.html
+      output: web, pdf
+
+    - title: Учет времени: суммирование вычитание разницы часов и минут
+      url: /p2_sample31.html
+      output: web, pdf
+
+    - title: Формат по образцу позволяет быстро форматировать таблицы
+      url: /p2_sample32.html
+      output: web, pdf
+
+    - title: Как скрыть или отобразить строки и столбцы
+      url: /p2_sample33.html
+      output: web, pdf
+
+  - title: Раздел 7: Формулы и функции
+    output: web, pdf
+    folderitems:
+
+    - title: Как в программе Excel ввести формулу мышкой
+      url: /p2_sample34.html
+      output: web, pdf
+
+    - title: Функция СУММ и примеры ее использования
+      url: /p2_sample35.html
+      output: web, pdf
+
+    - title: Влияние формата ячеек на работу функции СУММ
+      url: /p2_sample36.html
+      output: web, pdf
+
+    - title: Вычисление формулы объема и площади
+      url: /p2_sample37.html
+      output: web, pdf
+
+    - title: Абсолютная ссылка фиксирует ячейку в формуле
+      url: /p2_sample38.html
+      output: web, pdf
+
+    - title: Ссылка на ячейку в другом листе
+      url: /p2_sample39.html
+      output: web, pdf
+
+    - title: Работа с функциями на примерах
+      url: /p2_sample40.html
+      output: web, pdf
+
+  - title: Раздел 8: Графики и диаграммы
+    output: web, pdf
+    folderitems:
+
+    - title: Построение графиков и диаграмм
+      url: /p2_sample41.html
+      output: web, pdf
+
+    - title: Как изменить график с настройкой осей и цвета
+      url: /p2_sample42.html
+      output: web, pdf
+
+  - title: Раздел 9: Просмотр и печать документов
+    output: web, pdf
+    folderitems:
+
+    - title: Просмотр данных разными способами: примеры
+      url: /p2_sample43.html
+      output: web, pdf
+
+    - title: Предварительный просмотр перед печатью документов
+      url: /p2_sample44.html
+      output: web, pdf
+
+    - title: Печать таблицы с настройками параметров
+      url: /p2_sample45.html
+      output: web, pdf
+
+    - title: Печать шапки таблицы на каждой странице листа
+      url: /p2_sample46.html
+      output: web, pdf
+
+
+
+    

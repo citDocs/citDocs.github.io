@@ -1,0 +1,275 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: САМОУЧИТЕЛЬ EXCEL С ПРИМЕРАМИ ДЛЯ ПОЛЬЗОВАТЕЛЕЙ СРЕДНЕГО УРОВНЯ
+  product: EXCEL 2013-2016
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Раздел 1: Решения проблем с введением данных в ячейки
+    output: web, pdf
+    folderitems:
+
+    - title: Вводим в ячейку число как текст
+      url: /en_sample1.html
+      output: web
+
+    - title: Заполнение ячеек в Excel знаками после запятой
+      url: /en_sample2.html
+      output: web
+
+    - title: 4 способа заменить точку на запятую в Excel
+      url: /en_sample3.html
+      output: web
+
+  - title: Раздел 2: Автоматическое заполнение ячеек таблиц
+    output: web, pdf
+    folderitems:
+
+    - title: Как автоматически заполнить ячейки в Excel с большими таблицами
+      url: /en_sample4.html
+      output: web, pdf
+
+    - title: Пример как изменить сразу все цены в Excel
+      url: /en_sample5.html
+      output: web, pdf
+
+    - title: Быстрое заполнение и редактирование шаблона таблиц
+      url: /en_sample6.html
+      output: web, pdf
+
+    - title: Копирование формул без изменения адресов относительных ссылок
+      url: /en_sample7.html
+      output: web, pdf
+
+    - title: Простые расчеты и вычисления без использования формул
+      url: /p2_sample8.html
+      output: web, pdf
+
+  - title: Раздел 3: Форматирование ячеек
+    output: web, pdf
+    folderitems:
+
+    - title: Как изменить формат ячейки в Excel быстро и качественно
+      url: /en_sample9.html
+      output: web, pdf
+
+    - title: Нестандартное условное форматирование по значению ячейки в Excel
+      url: /en_sample10.html
+      output: web, pdf
+
+    - title: Стили ячеек в Excel и средства управления ими
+      url: /p2_sample11.html
+      output: web, pdf
+
+    - title: Создание шаблонов и тем для быстрого форматирования
+      url: /en_sample12.html
+      output: web, pdf
+    
+  - title: Раздел 4: Защита данных
+    output: web, pdf
+    folderitems:
+
+    - title: Защита файла паролем и шифрованием
+      url: /en_sample13.html
+      output: web, pdf
+
+    - title: Как настроить автосохранение документа
+      url: /en_sample14.html
+      output: web, pdf
+
+    - title: Защита персональных данных в файле
+      url: /en_sample15.html
+      output: web, pdf
+
+    - title: Защита листа и ячеек в Excel
+      url: /en_sample16.html
+      output: web, pdf
+
+    - title: Скрыть лист в списке скрытых листов
+      url: /en_sample17.html
+      output: web, pdf
+
+    - title: Проверка ввода данных в Excel и ее особенности
+      url: /en_sample18.html
+      output: web, pdf
+
+  - title: Раздел 5: Работа с таблицами
+    output: web, pdf
+    folderitems:
+
+    - title: Автоматическое создание таблиц Excel
+      url: /en_sample19.html
+      output: web, pdf
+
+    - title: Автоматическое добавление строк и столбцов в таблицу
+      url: /en_sample20.html
+      output: web, pdf
+
+    - title: Стили таблиц для автоматического форматирования диапазонов ячеек
+      url: /en_sample21.html
+      output: web, pdf
+
+    - title: Возможности умной таблицы
+      url: /en_sample22.html
+      output: web, pdf
+
+    - title: Удаление дубликатов с помощью таблиц
+      url: /en_sample23.html
+      output: web, pdf
+
+  - title: Раздел 6: Формулы в Excel
+    output: web, pdf
+    folderitems:
+
+    - title: Абсолютные относительные адреса ячеек в формуле
+      url: /en_sample24.html
+      output: web, pdf
+
+    - title: Автоматический пересчет формул и вручную
+      url: /en_sample25.html
+      output: web, pdf
+
+    - title: Трехмерные ссылки в формулах
+      url: /en_sample26.html
+      output: web, pdf
+
+    - title: Зависимость формул и структура их вычисления
+      url: /en_sample27.html
+      output: web, pdf
+
+    - title: Как убрать ошибки в ячейках
+      url: /en_sample28.html
+      output: web, pdf
+
+    - title: Зависимости формул и построение их схемы
+      url: /en_sample29.html
+      output: web, pdf
+
+    - title: Проверка вводимых значений
+      url: /en_sample30.html
+      output: web, pdf
+
+  - title: Раздел 7: Имена диапазонов ячеек
+    output: web, pdf
+    folderitems:
+
+    - title: Как присвоить имя значению
+      url: /en_sample31.html
+      output: web, pdf
+
+    - title: Имена диапазонов с абсолютным адресом
+      url: /en_sample32.html
+      output: web, pdf
+
+    - title: Область видимости имени на листе
+      url: /en_sample33.html
+      output: web, pdf
+
+    - title: Имена диапазонов с относительным адресом ссылки
+      url: /en_sample34.html
+      output: web, pdf
+
+    - title: Автоматически изменяемые диапазоны ячеек
+      url: /en_sample35.html
+      output: web, pdf
+
+    - title: Изменяемые диапазоны и функция промежуточные итоги
+      url: /en_sample36.html
+      output: web, pdf
+
+  - title: Раздел 8: Создание диаграмм и графиков в Excel
+    output: web, pdf
+    folderitems:
+
+    - title: Автоматическое создание графиков и диаграмм
+      url: /en_sample37.html
+      output: web, pdf
+
+    - title: Как построить график функции в Excel
+      url: /en_sample38.html
+      output: web, pdf
+
+    - title: Как сделать диаграмму с процентами
+      url: /en_sample39.html
+      output: web, pdf
+
+    - title: Как построить лепестковую диаграмму
+      url: /en_sample40.html
+      output: web, pdf
+
+    - title: Пузырьковая диаграмма в Инфографике
+      url: /en_sample41.html
+      output: web, pdf
+
+    - title: Поверхностная диаграмма и пример ее построения
+      url: /en_sample42.html
+      output: web, pdf
+
+    - title: Построение линии тренда в Excel для анализа графика
+      url: /en_sample43.html
+      output: web, pdf
+
+    - title: Построение графиков в Excel практическая работа
+      url: /en_sample44.html
+      output: web, pdf
+
+    - title: Интерполяция графика и табличных данных
+      url: /en_sample45.html
+      output: web, pdf
+
+    - title: Спарклайн позволяет создать мини график в ячейке
+      url: /en_sample46.html
+      output: web, pdf
+
+    - title: Работа с шаблонами графиков
+      url: /en_sample47.html
+      output: web, pdf
+
+  - title: Раздел 9: Подбор параметра, поиск решения и сценарии
+    output: web, pdf
+    folderitems:
+
+    - title: Уравнения и задачи на подбор параметра
+      url: /en_sample48.html
+      output: web, pdf
+
+    - title: 3 примера использования подбора параметра
+      url: /en_sample49.html
+      output: web, pdf
+
+    - title: Надстройка поиск решения и подбор нескольких параметров
+      url: /en_sample50.html
+      output: web, pdfS
+
+    - title: Сценарии в Excel позволяют прогнозировать результат.
+      url: /en_sample51.html
+      output: web, pdf
+
+  - title: Раздел 10: Подбор параметра, поиск решения и сценарии
+    output: web, pdf
+    folderitems:
+
+    - title: Сортировка и фильтр на примере базы данных клиентов
+      url: /en_sample52.html
+      output: web, pdf
+
+    - title: Обучение сводным таблицам на примерах
+      url: /en_sample53.html
+      output: web, pdf
+
+
+
+    
