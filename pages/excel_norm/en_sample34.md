@@ -1,8 +1,7 @@
 ---
-title: Sample 34 Topic (Product 1)
+title: Имена диапазонов ячеек
 keywords: sample
-summary: "This is just a sample topic..."
-sidebar: product2_sidebar
+sidebar: en_sidebar
 permalink: en_sample34.html
 folder: excel_norm
 ---
@@ -41,9 +40,12 @@ _Примечание. Чтобы быстро и удобно изменить 
 4. В ячейки B6, C6 и D6 введите значение: =итого.
 
 5. Скопируйте лист «2008», назвав новые копии листов: «2009» и «2010». И откройте «Формулы»-«Диспетчер имен».
-
-![img](/images/img.png)
+        ![img](/images/img.png)
 
 Как видно в диспетчере имен при копировании листов для них автоматически создались имена «итого».
+
+| [<< ОБЛАСТЬ ВИДИМОСТИ ИМЕНИ НА ЛИСТЕ](en_sample33.html) |
+
+| | [АВТОМАТИЧЕСКИ ИЗМЕНЯЕМЫЕ ДИАПАЗОНЫ ЯЧЕЕК >>](en_sample35.html) |
 
 {% include links.html %}

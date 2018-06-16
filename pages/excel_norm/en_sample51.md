@@ -1,8 +1,7 @@
 ---
-title: Sample 51 Topic (Product 1)
+title: Подбор параметра, поиск решения и сценарии
 keywords: sample
-summary: "This is just a sample topic..."
-sidebar: product2_sidebar
+sidebar: en_sidebar
 permalink: en_sample51.html
 folder: excel_norm
 ---
@@ -51,9 +50,12 @@ folder: excel_norm
         ![img](/images/img.png)
 
 **Готово!!!**
-
-![img](/images/img.png)
+        ![img](/images/img.png)
 
 Теперь мы получили отчет, по которому можно сравнивать как будут развиваться события при различных возможных сценариях, чтобы заранее предвидеть результат при разных экономических условиях.
+
+| [<< НАДСТРОЙКА, ПОИСК РЕШЕНИЯ И ПОДБОР НЕСКОЛЬКИХ ПАРАМЕТРОВ](en_sample50.html) |
+
+| | [СОРТИРОВКА И ФИЛЬТР НА ПРИМЕРЕ БАЗЫ ДАННЫХ КЛИЕНТОВ >>](en_sample52.html) |
 
 {% include links.html %}
