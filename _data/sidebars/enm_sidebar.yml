@@ -1,0 +1,34 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Курсы
+  product: 
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Excel
+    output: web, pdf
+    folderitems:
+
+    - title: УРОКИ EXCEL ДЛЯ ЧАЙНИКОВ И НАЧИНАЮЩИХ ПОЛЬЗОВАТЕЛЕЙ
+      url: /p2_sample1.html
+      output: web
+
+    - title: САМОУЧИТЕЛЬ EXCEL С ПРИМЕРАМИ ДЛЯ ПОЛЬЗОВАТЕЛЕЙ СРЕДНЕГО УРОВНЯ
+      url: /en_sample1.html
+      output: web
+
+ 
