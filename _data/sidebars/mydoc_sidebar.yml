@@ -7,11 +7,11 @@ entries:
   folders:
 
   - title: Дисциплины
-    url: / p1_landing_page.html
-    output: web, pdf
+    url: /p1_landing_page.html
+    output: web
 
   - title: Курсы
-    url: / en_landing_page.html
-    output: web, pdf
+    url: /en_landing_page.html
+    output: web
 
     
