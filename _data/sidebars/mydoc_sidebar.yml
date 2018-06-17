@@ -5,13 +5,28 @@ entries:
   product: 
   version:
   folders:
-      
-- title: Дисциплины
-  url: /p1_landing_page.html
-  output: web
 
-- title: Курсы
-  url: /en_landing_page.html
-  output: web
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
 
+  - title: Домашняя страница
+    output: web, pdf
+    folderitems:
+
+    - title: Дисциплины
+      url: /p1_landing_page.html
+      output: web
+    - title: Курсы
+      url: /en_landing_page.html
+      output: web    
     
