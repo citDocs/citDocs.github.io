@@ -1,6 +1,11 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
+- title: sidebar
+  product: 
+  version:
+  folders:
+      
 - title: Дисциплины
   url: /p1_landing_page.html
   output: web
@@ -9,5 +14,4 @@ entries:
   url: /en_landing_page.html
   output: web
 
- 
     
