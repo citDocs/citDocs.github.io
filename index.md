@@ -2,7 +2,7 @@
 title: Академическая школа информационных технологий при ПГУ
 keywords: sample homepage
 tags: [getting_started]
-sidebar: mydoc_sidebar
+sidebar: none
 permalink: index.html
 ---
 
