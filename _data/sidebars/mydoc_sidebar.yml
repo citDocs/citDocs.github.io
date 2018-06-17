@@ -1,16 +1,4 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-- title:
-  output: pdf
-  type: frontmatter
-  folderitems:
-  - title:
-    url: /titlepage
-    output: pdf
-    type: frontmatter
-  - title:
-    url: /tocpage
-    output: pdf
-    type: frontmatter
 
 entries:
 - title: sidebar
@@ -18,12 +6,12 @@ entries:
   version:
   folders:
 
-  - title: Дисциплины
-    url: /p1_landing_page.html
-    output: web
+- title: Дисциплины
+  url: /p1_landing_page.html
+  output: web
 
-  - title: Курсы
-    url: /en_landing_page.html
-    output: web
+- title: Курсы
+  url: /en_landing_page.html
+  output: web
 
     
