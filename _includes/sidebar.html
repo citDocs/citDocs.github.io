@@ -3,7 +3,10 @@
        
   <ul id="mysidebar" class="nav">
           <li>
-          <a href="#">{{ folder.title }}<span id='drop_menu'>Развернуть меню</span></a>
+          <a id="drop_menu" href="#">
+                Развернуть меню
+                {{ folder.title }}
+            </a>
            <ul>       
               <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
           {% for entry in sidebar %}
