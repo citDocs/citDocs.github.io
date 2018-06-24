@@ -3,13 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: курсы
-      url: http://flexberry.net
-topnav:
-- title: Topnav
-  items:
     - title: Курсы
-      url: /p1_landing_page.html
+      url: /en_landing_page.html
 
       #url: /en_landing_page.html
       #url: /index.html
