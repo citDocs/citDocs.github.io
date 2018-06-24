@@ -1,7 +1,6 @@
 ---
-title: Sample 1 Topic
+title: Подготовка к работе
 keywords: sample
-summary: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: p2_sample1.html
 folder: product2
@@ -58,6 +57,6 @@ folder: product2
 
 Цель данного урока ознакомить пользователя с внешним видом окна программы. А также ознакомление с основными инструментами и управления ими для комфортной работы.
 
-[ПАНЕЛИ ИНСТРУМЕНТОВ НА ПОЛОСЕ >>](p2_sample2.html)
+| [ПАНЕЛИ ИНСТРУМЕНТОВ НА ПОЛОСЕ >>](p2_sample2.html) |
 
 {% include links.html %}

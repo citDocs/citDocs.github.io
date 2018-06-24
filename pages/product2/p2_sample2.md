@@ -1,7 +1,6 @@
 ---
-title: Sample 2 Topic
+title: Подготовка к работе
 keywords: sample
-summary: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: p2_sample2.html
 folder: product2
